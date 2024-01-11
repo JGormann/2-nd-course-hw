@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/bgpTop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top_text-block {
+  display: flex;
+  width: 600px;
+  height: 125px;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 217px;
+  padding-bottom: 32px;
+}
+.top_text-block__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top_subtop-block {
+  width: 481px;
+  padding-bottom: 44px;
+}
+.top_subtop-block__text-discription {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.top_button {
+  width: 230px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  background-image: url(img/bgpFooter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer_content {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+.footer_content__game-1 {
+  background-image: url(img/pic1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic1.jpg), lightgray 50%/cover no-repeat;
+}
+.footer_content__game-2 {
+  background-image: url(img/pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic2.jpg), lightgray 50%/cover no-repeat;
+}
+.footer_content__game-3 {
+  background-image: url(img/pic3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic3.jpg), lightgray 50%/cover no-repeat;
+}
+
+.product-title {
+  width: 84px;
+  height: 31px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-left: 32px;
+  padding-top: 236px;
+}/*# sourceMappingURL=style.css.map */
