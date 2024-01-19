@@ -57,62 +57,34 @@
   line-height: normal;
 }
 
-.footer {
+.product {
   background-image: url(img/bgpFooter.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.footer_content {
+.product_game {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
-  padding-bottom: 128px;
   padding-top: 128px;
+  padding-bottom: 128px;
 }
-.footer_content__game-1 {
-  background-image: url(img/pic1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 379px;
-  height: 300px;
-  flex-shrink: 0;
+.product_game__item {
+  position: relative;
+}
+.product_game__box {
+  position: relative;
   border-radius: 16px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic1.jpg), lightgray 50%/cover no-repeat;
 }
-.footer_content__game-2 {
-  background-image: url(img/pic2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 379px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic2.jpg), lightgray 50%/cover no-repeat;
-}
-.footer_content__game-3 {
-  background-image: url(img/pic3.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 379px;
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/pic3.jpg), lightgray 50%/cover no-repeat;
-}
-
-.product-title {
-  width: 84px;
-  height: 31px;
+.product_game__text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
   color: #FFF;
   font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-  padding-left: 32px;
-  padding-top: 236px;
 }/*# sourceMappingURL=style.css.map */
