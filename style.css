@@ -17,6 +17,7 @@
 }
 .top_text-block {
   display: flex;
+  flex-wrap: wrap;
   width: 740px;
   height: 125px;
   flex-direction: column;
@@ -87,4 +88,47 @@
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+  }
+  .top_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top_text-block {
+    width: 343px;
+    height: 77px;
+  }
+  .top_text-block__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .top_subtop-block {
+    width: 343px;
+  }
+  .top_subtop-block__text-discription {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .product_game__box {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

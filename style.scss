@@ -17,6 +17,7 @@
 
     &_text-block{
         display: flex;
+        flex-wrap: wrap;
         width: 740px;
         height: 125px;
         flex-direction: column;
@@ -100,3 +101,5 @@
     }
 
 }
+
+@import 'mobile'
