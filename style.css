@@ -57,6 +57,9 @@
   font-weight: 400;
   line-height: normal;
 }
+.top_button:hover {
+  background-color: #EB443F;
+}
 
 .product {
   background-image: url(img/bgpFooter.jpg);
@@ -73,6 +76,10 @@
 }
 .product_game__item {
   position: relative;
+}
+.product_game__item:hover {
+  outline: 3px solid #44D2FF;
+  border-radius: 16px;
 }
 .product_game__box {
   position: relative;

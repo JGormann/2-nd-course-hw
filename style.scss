@@ -61,7 +61,13 @@
         font-weight: 400;
         line-height: normal;
     }
+    &_button:hover{
+        background-color: #EB443F;   
+    }
+
+    
 }
+
 
 
 .product{
@@ -79,6 +85,11 @@
 
         &__item{
             position: relative;
+        }
+
+        &__item:hover{
+            outline: 3px solid #44D2FF;
+            border-radius: 16px;
         }
 
         &__box{
@@ -101,5 +112,6 @@
     }
 
 }
+
 
 @import 'mobile'
