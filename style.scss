@@ -15,7 +15,7 @@
     background-position: center;
     background-size: cover;
 
-    &_text-block{
+    &__text-block{
         display: flex;
         flex-wrap: wrap;
         width: 740px;
@@ -25,7 +25,7 @@
         padding-top: 217px;
         padding-bottom: 32px;
 
-        &__text{
+        &_text{
             color: #FFF;
             font-family: Montserrat;
             font-size: 64px;
@@ -35,11 +35,11 @@
         }
     }
 
-    &_subtop-block{
+    &__subtop-block{
         width: 481px;
         padding-bottom: 44px;
 
-        &__text-discription{
+        &_text-discription{
             color: #FFF;
             font-family: Montserrat;
             font-size: 18px;
@@ -49,7 +49,7 @@
         }
     }
 
-    &_button{
+    &__button{
         width: 230px;
         height: 48px;
         border-radius: 30px;
@@ -61,7 +61,7 @@
         font-weight: 400;
         line-height: normal;
     }
-    &_button:hover{
+    &__button:hover{
         background-color: #EB443F;   
     }
 
@@ -76,28 +76,29 @@
     background-position: center;
     background-size: cover;
 
-    &_game{
+    &__game{
         display: flex;
         flex-wrap: wrap;
         gap: 32px;
         padding-top: 128px;
         padding-bottom: 128px;
+        justify-content: center;
 
-        &__item{
+        &_item{
             position: relative;
         }
 
-        &__item:hover{
+        &_item:hover{
             outline: 3px solid #44D2FF;
             border-radius: 16px;
         }
 
-        &__box{
+        &_box{
             position: relative;
             border-radius: 16px;
         }
 
-        &__text{
+        &_text{
             position: absolute;
             bottom: 8px;
             left: 16px;
