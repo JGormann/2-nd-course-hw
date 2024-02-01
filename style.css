@@ -25,7 +25,7 @@
   padding-top: 217px;
   padding-bottom: 32px;
 }
-.top__text-block_text {
+.top__text-block-text {
   color: #FFF;
   font-family: Montserrat;
   font-size: 64px;
@@ -37,7 +37,7 @@
   width: 481px;
   padding-bottom: 44px;
 }
-.top__subtop-block_text-discription {
+.top__subtop-block-text-discription {
   color: #FFF;
   font-family: Montserrat;
   font-size: 18px;
@@ -75,18 +75,18 @@
   padding-bottom: 128px;
   justify-content: center;
 }
-.product__game_item {
+.product__game-item {
   position: relative;
 }
-.product__game_item:hover {
+.product__game-item:hover {
   outline: 3px solid #44D2FF;
   border-radius: 16px;
 }
-.product__game_box {
+.product__game-box {
   position: relative;
   border-radius: 16px;
 }
-.product__game_text {
+.product__game-text {
   position: absolute;
   bottom: 8px;
   left: 16px;
@@ -115,7 +115,7 @@
     width: 343px;
     height: 77px;
   }
-  .top__text-block_text {
+  .top__text-block-text {
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -136,7 +136,7 @@
     font-weight: 300;
     line-height: 22px;
   }
-  .product__game_box {
+  .product__game-box {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -25,7 +25,7 @@
         padding-top: 217px;
         padding-bottom: 32px;
 
-        &_text{
+        &-text{
             color: #FFF;
             font-family: Montserrat;
             font-size: 64px;
@@ -39,7 +39,7 @@
         width: 481px;
         padding-bottom: 44px;
 
-        &_text-discription{
+        &-text-discription{
             color: #FFF;
             font-family: Montserrat;
             font-size: 18px;
@@ -84,21 +84,21 @@
         padding-bottom: 128px;
         justify-content: center;
 
-        &_item{
+        &-item{
             position: relative;
         }
 
-        &_item:hover{
+        &-item:hover{
             outline: 3px solid #44D2FF;
             border-radius: 16px;
         }
 
-        &_box{
+        &-box{
             position: relative;
             border-radius: 16px;
         }
 
-        &_text{
+        &-text{
             position: absolute;
             bottom: 8px;
             left: 16px;
