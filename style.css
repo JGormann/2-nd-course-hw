@@ -15,7 +15,7 @@
   background-position: center;
   background-size: cover;
 }
-.top_text-block {
+.top__text-block {
   display: flex;
   flex-wrap: wrap;
   width: 740px;
@@ -25,7 +25,7 @@
   padding-top: 217px;
   padding-bottom: 32px;
 }
-.top_text-block__text {
+.top__text-block-text {
   color: #FFF;
   font-family: Montserrat;
   font-size: 64px;
@@ -33,11 +33,11 @@
   font-weight: 700;
   line-height: normal;
 }
-.top_subtop-block {
+.top__subtop-block {
   width: 481px;
   padding-bottom: 44px;
 }
-.top_subtop-block__text-discription {
+.top__subtop-block-text-discription {
   color: #FFF;
   font-family: Montserrat;
   font-size: 18px;
@@ -45,7 +45,7 @@
   font-weight: 300;
   line-height: 32px;
 }
-.top_button {
+.top__button {
   width: 230px;
   height: 48px;
   border-radius: 30px;
@@ -57,6 +57,9 @@
   font-weight: 400;
   line-height: normal;
 }
+.top__button:hover {
+  background-color: #EB443F;
+}
 
 .product {
   background-image: url(img/bgpFooter.jpg);
@@ -64,21 +67,26 @@
   background-position: center;
   background-size: cover;
 }
-.product_game {
+.product__game {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   padding-top: 128px;
   padding-bottom: 128px;
+  justify-content: center;
 }
-.product_game__item {
+.product__game-item {
   position: relative;
 }
-.product_game__box {
+.product__game-item:hover {
+  outline: 3px solid #44D2FF;
+  border-radius: 16px;
+}
+.product__game-box {
   position: relative;
   border-radius: 16px;
 }
-.product_game__text {
+.product__game-text {
   position: absolute;
   bottom: 8px;
   left: 16px;
@@ -98,16 +106,16 @@
   .top {
     height: 735px;
   }
-  .top_section {
+  .top__section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .top_text-block {
+  .top__text-block {
     width: 343px;
     height: 77px;
   }
-  .top_text-block__text {
+  .top__text-block-text {
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -116,10 +124,10 @@
     font-weight: 700;
     line-height: normal;
   }
-  .top_subtop-block {
+  .top__subtop-block {
     width: 343px;
   }
-  .top_subtop-block__text-discription {
+  .top__subtop-block_text-discription {
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -128,7 +136,7 @@
     font-weight: 300;
     line-height: 22px;
   }
-  .product_game__box {
+  .product__game-box {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

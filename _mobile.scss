@@ -7,18 +7,18 @@
     .top{
         height: 735px;
 
-        &_section{
+        &__section{
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        &_text-block{
+        &__text-block{
             width: 343px;
             height: 77px
         }
 
-        &_text-block__text{
+        &__text-block-text{
             color: #FFF;
             text-align: center;
             font-family: Montserrat;
@@ -28,10 +28,10 @@
             line-height: normal;
         }
 
-        &_subtop-block{
+        &__subtop-block{
             width: 343px;
 
-            &__text-discription{
+            &_text-discription{
                 color: #FFF;
                 text-align: center;
                 font-family: Montserrat;
@@ -45,7 +45,7 @@
             
     }
 
-    .product_game__box{
+    .product__game-box{
         width: 100%;
     }
 
