@@ -26,7 +26,7 @@ while (c<=22){
    "Вася": 300,
    "Петя": 400
  }
- for (key in obj) {
+ for ( let key in obj) {
    console.log(`${key} - зарплата ${obj[key]} долларов`);
  }
 
@@ -37,6 +37,7 @@ while (c<=22){
  for (num; n >= 50; num++) {
    n /= 2;
  }
+ console.log(num,n);
 
 //Второй вариант решения
 // while(n >=50){
