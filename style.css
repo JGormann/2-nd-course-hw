@@ -98,6 +98,54 @@
   line-height: 32px;
 }
 
+.game1 {
+  background-image: url(img/bkgc2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 155px;
+}
+.game1__block-content {
+  display: flex;
+  flex-direction: column;
+  width: 584px;
+  height: 235px;
+  gap: 32px;
+  margin-top: 410px;
+  margin-bottom: 302px;
+}
+.game1__block-content-header {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
+.game1__block-content-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.game1__block-content-button {
+  width: 230px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.game1__block-content-picture {
+  margin-top: 361px;
+  margin-bottom: 254px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -137,6 +185,36 @@
     line-height: 22px;
   }
   .product__game-box {
+    width: 100%;
+  }
+  .game1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+  .game1__block-content {
+    margin-top: 178px;
+    margin-bottom: 0px;
+    align-items: center;
+    width: 343px;
+  }
+  .game1__block-content-header {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .game1__block-content-text {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+  .game1__block-content-picture {
+    margin-top: 0px;
+    margin-bottom: 51px;
+  }
+  .game1__picture {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
