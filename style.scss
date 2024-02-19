@@ -114,5 +114,61 @@
 
 }
 
+.game1{
+    background-image: url(img/bkgc2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex ;
+    gap: 155px;
+
+    &__block-content{
+        display: flex;
+        flex-direction: column;
+        width:584px ;
+        height: 235px;
+        gap: 32px;
+        margin-top: 410px;
+        margin-bottom: 302px;
+
+        &-header{
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 48px;
+            color: rgb(255, 255, 255);
+        }
+
+        &-text{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+        }
+
+        &-button{
+            width: 230px;
+            height: 48px;
+            border-radius: 30px;
+            background: #9C0332;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &-picture{
+            margin-top: 361px;
+            margin-bottom: 254px;
+        }
+    }
+    
+
+    
+}
+
+
 
 @import 'mobile'
